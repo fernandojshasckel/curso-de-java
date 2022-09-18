@@ -1,6 +1,6 @@
 # Curso de JAVA
 
-    Tipos primitivos
+   ### Tipos primitivos
     
     - Temos oito tipos primitivos, são eles que vão guardar em memoria um valor 
       simples.
@@ -21,3 +21,23 @@
     - Quando eu forço uma variavel receber um valor de tipo diferente chamamos de cast
 
     - Quando trabalho com valores de moeda é interessante utilizar BigDecimal.
+
+   ### Operadores aritiméticos
+   
+    - São elementos que permitem que seja possivel fazer operações.
+    
+    - Por exemplo os operadores aritimeticos
+    São operadores que quando utilizados permitem que  seja possivel realizar operações 
+    aritimeticas.
+    
+    Como operadores temos
+    
+    - Soma: + 
+    - Subtração: - 
+    - Divisão: / 
+    - Multiplicação: *
+    
+    - O resultado de uma operação com números inteiros sempre será um inteiro
+    Por exemplo se eu dividir 10 para 20 não terei o resultado de 0.5 e sim um resultado
+    de 0.
+     
