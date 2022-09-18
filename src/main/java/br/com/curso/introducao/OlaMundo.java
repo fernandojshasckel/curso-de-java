@@ -1,3 +1,5 @@
+package br.com.curso.introducao;
+
 /**
  * @author Fernando  Hasckel
  * @since 1.0 (17/09/2022)
