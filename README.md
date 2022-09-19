@@ -77,3 +77,5 @@
     Atribuição com resto: %=
    
    ### Estruturas condicionais
+
+    - Dentro da estrutura condicional tenho que sempre fazer com que a comparação retorne em boleano

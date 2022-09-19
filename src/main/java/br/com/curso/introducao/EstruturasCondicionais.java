@@ -7,10 +7,20 @@ public class EstruturasCondicionais {
      */
     public static void main(String[] args) {
         
-        if(true){
-            System.out.println("Está dentro do if");
+        int age = 20;
+
+        if (age >= 18){
+            System.out.println("Autorizado a comprar bebida alcólica");
         } 
+
+        boolean isAuthorized = age >= 18;
+
+        if (isAuthorized){
+            System.out.println("Autorizado a comprar bebida alcólica");
+        }  
         
-        System.out.println("Está fora do if");
+        if (!isAuthorized){
+            System.out.println("Não autorizado a comprar bebida alcólica");
+        }
     }
 }
