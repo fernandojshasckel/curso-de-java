@@ -12,27 +12,28 @@ public class TiposPrimitivos {
         System.out.println("The age is: " + age);
 
         double salaryDouble = 2000.50;
-        System.out.println("This salary double is: " + salaryDouble);
+        System.out.println("double: " + salaryDouble);
 
         float salaryFloat = 2500.99F;
-        System.out.println("This salary float is: " + salaryFloat);
+        System.out.println("float: " + salaryFloat);
 
         char caracter = 'A';
-        System.out.println("This caracter is: " + caracter);
+        System.out.println("char: " + caracter);
 
         byte ageByte = 10;
-        System.out.println("This abe byte is: " + ageByte);
+        System.out.println("byte: " + ageByte);
 
         short ageShort = 10;
-        System.out.println("This age short is: " + ageShort);
+        System.out.println("short: " + ageShort);
 
         long bigNumber = 100000L;
-        System.out.println("This big number is: " + bigNumber);
+        System.out.println("long:  " + bigNumber);
 
         boolean falseTrue = true;
-        System.out.println("This false true is: " + falseTrue);
+        System.out.println("boolean: " + falseTrue);
 
-        // Example of cast
+        // Exemplo de cast
         double cast = (float) 2000.50F;
+        System.out.println("cast: " + cast);
     }
 }
