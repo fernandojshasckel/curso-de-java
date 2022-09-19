@@ -6,6 +6,9 @@ package br.com.curso.introducao;
  */
 public class OlaMundo {
 
+    /**
+     * @param Olá mundo
+     */
     public static void main(String[] args) {
 
         System.out.println("Olá mundo!");

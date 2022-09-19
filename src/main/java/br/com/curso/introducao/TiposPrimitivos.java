@@ -6,6 +6,9 @@ package br.com.curso.introducao;
  */
 public class TiposPrimitivos {
 
+    /**
+     * @param Tipos primitivos
+     */
     public static void main(String[] args) {
 
         int age = 10;
