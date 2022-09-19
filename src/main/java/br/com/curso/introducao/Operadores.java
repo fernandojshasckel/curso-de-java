@@ -62,5 +62,27 @@ public class Operadores {
         float valuePlayStation = 5000;
         boolean isICanBuy = currentAccountTotalAmount > valuePlayStation || totalAmountSavingsAccount > valuePlayStation;
         System.out.println("Can I buy the PlayStation: " + isICanBuy);
+
+        // Operadores de atribuição
+
+        double bonus = 1800;
+        bonus += 1000;
+        System.out.println("The bonus is from: " + bonus);
+
+        double bonus2 = 1800;
+        bonus2 -= 1000;
+        System.out.println("The bonus is from: " + bonus2);
+
+        double bonus3 = 1800;
+        bonus3 *= 2;
+        System.out.println("The bonus is from: " + bonus3);
+
+        double bonus4 = 3000;
+        bonus4 /= 2;
+        System.out.println("The bonus is from: " + bonus4);
+
+        double remainderBonus = 3000;
+        remainderBonus %= 2;
+        System.out.println("The remainder of the bonus division is: " + remainderBonus);
     }
 }

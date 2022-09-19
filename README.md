@@ -65,3 +65,14 @@
     Ou: ||
     Negação: !
     
+  ### Operadores de atribuição
+
+   - Como o proprio nome ja diz são operadores para a atribuição de valores a sua variavel
+
+   Atribuição: =
+   Atribuição com soma: +=
+   Atribuição com subtração: -=
+   Atribuição com multiplicação: *=
+   Atribuição com divisão: /=
+   Atribuição com resto: %=
+   
