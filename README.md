@@ -41,3 +41,27 @@
     Por exemplo se eu dividir 10 para 20 não terei o resultado de 0.5 e sim um resultado
     de 0.
      
+   ### Operadores relacionais
+   
+    - O operador de resto é o sinal de porcentagem '%'
+    Utilizo o resto da divisão por exemplo para indicar se um número é par ou impar.
+    
+    - Sempre retornam um valor boleano
+    
+    Como operadores lógicos temos:
+    Menor: <
+    Maior: >
+    Menor igual: <=
+    Maior igual: >=
+    Igual: == 
+    Diferente: !=
+
+   ### Operadores lógicos
+   
+    - Utilizados com estruturas condicionais
+    - Temos três tipos
+    
+    E: &&
+    Ou: ||
+    Negação: !
+    
