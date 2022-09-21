@@ -28,6 +28,7 @@ public class EstruturasCondicionais {
         // idade < 15 categoria infantil
         // idade >= 15 && idade < 18 categoria juvenil
         // idade >= 18 categoria adulto
+
         int idade = 18;
         String categoria;
 
@@ -38,5 +39,14 @@ public class EstruturasCondicionais {
         } else if (idade >= 18){
             categoria = "Categoria adulto";
         }
+
+        // Estrutura condicional ternaria
+
+        double salario = 6000;
+        String mensagemDoar = "Eu vou doar 500 pro DevDojo";
+        String mensagemNaoDoar = "Ainda não tenho condição para doar";
+        String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
+
+        System.out.println(resultado);
     }
 }
