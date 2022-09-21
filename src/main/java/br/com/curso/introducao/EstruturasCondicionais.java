@@ -3,7 +3,8 @@ package br.com.curso.introducao;
 public class EstruturasCondicionais {
     
     /**
-     * @param Estruturas condicionais
+     * @param args
+     * Estruturas condicionais
      */
     public static void main(String[] args) {
         

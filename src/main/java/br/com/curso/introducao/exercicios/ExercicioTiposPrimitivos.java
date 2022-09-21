@@ -6,6 +6,10 @@ package br.com.curso.introducao.exercicios;
  */
 public class ExercicioTiposPrimitivos {
 
+    /**
+     * @param args
+     * Exercicio de tipos primitivos
+     */
     public static void main(String[] args) {
 
         String name = "Fernando";

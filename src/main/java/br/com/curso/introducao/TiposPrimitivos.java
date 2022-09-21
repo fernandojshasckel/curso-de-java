@@ -7,7 +7,8 @@ package br.com.curso.introducao;
 public class TiposPrimitivos {
 
     /**
-     * @param Tipos primitivos
+     * @param args
+     * Tipos primitivos
      */
     public static void main(String[] args) {
 

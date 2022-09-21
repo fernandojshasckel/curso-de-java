@@ -7,7 +7,8 @@ package br.com.curso.introducao;
 public class Operadores {
 
     /**
-     * @param Operadores
+     * @param args
+     * Operadores
      */
     public static void main(String[] args) {
 

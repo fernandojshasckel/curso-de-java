@@ -7,7 +7,8 @@ package br.com.curso.introducao;
 public class OlaMundo {
 
     /**
-     * @param Olá mundo
+     * @param args
+     * Olá mundo
      */
     public static void main(String[] args) {
 
