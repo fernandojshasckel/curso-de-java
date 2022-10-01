@@ -76,6 +76,21 @@
     Atribuição com divisão: /=
     Atribuição com resto: %=
    
-   ### Estruturas condicionais
+   ### Estruturas condicionais if/else
 
     - Dentro da estrutura condicional tenho que sempre fazer com que a comparação retorne em boleano
+
+   ### Estruturas condicionais Switch
+
+    - Quando utilizo switch a variavel deve ser de um dos seguintes tipos:
+      - char
+      - int
+      - byte
+      - short
+      - enum
+      - String
+    
+    - Utilizo o "break"por que se não a hora que a condição for atendida daquela em diante será executada,
+    já com o break a execução é interompida e acontece so o que está dentro do case onde a condição foi atendida
+
+    - Utilizo o default para caso nenhuma das opções for atendida vai ser rodado o que está no default

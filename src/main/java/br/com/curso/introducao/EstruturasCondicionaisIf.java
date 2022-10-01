@@ -1,10 +1,10 @@
 package br.com.curso.introducao;
 
-public class EstruturasCondicionais {
+public class EstruturasCondicionaisIf {
     
     /**
      * @param args
-     * Estruturas condicionais
+     * Estruturas condicionais utilizando if/else
      */
     public static void main(String[] args) {
         
