@@ -94,3 +94,26 @@
     já com o break a execução é interompida e acontece so o que está dentro do case onde a condição foi atendida
 
     - Utilizo o default para caso nenhuma das opções for atendida vai ser rodado o que está no default
+
+   ### Arrays
+    
+    - Um array é uma referencia, tenho uma váriavel que referencia um espaço em memoria.
+
+    - Temos mais de um valor.
+
+    - Posso declarar as váriaveis de duas formas
+      - int [] idades = new int[ Aqui passo o espaço em memoria que quero alocar ];
+      - int idades[] = new int[ Aqui passo o espaço em memoria que quero alocar ];
+
+    - Posso fazer a inicialização da váriavel com null pois ela é uma váriavel do tipo references.
+
+    - Padrões de inicialização de Arrays
+     - Para byte, short, int, long, float e double: 0
+     - Para char: Temos um unicode '\u000', que imprime um espaço em branco
+     - Para boolean: O padrão é false
+     - Para String ou outros tipos o padrão é: null
+
+    - Para pegar o tamanho do meu array posso utilizar a seguinte forma
+      - nomeDoArray.length
+
+    - Para mudar o tamanho de um array é necessario que o programa seja reiniciado
