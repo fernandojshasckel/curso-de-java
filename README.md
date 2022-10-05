@@ -117,3 +117,22 @@
       - nomeDoArray.length
 
     - Para mudar o tamanho de um array é necessario que o programa seja reiniciado
+
+    - Passo passar os valores do meu array na hora da declaração da váriavel, a partir do número de elementos ele define o tamanho
+      - int [] numeros = {1, 2, 3}
+      - int [] numeros = new int [] {1, 2, 3}
+
+   ### Arrays Multidimensionais
+
+    - São arrays de arrays ou seja eu vou ter arrays linkados e quando eles estão linkados eu posso navegar sobre todas as posições que eles
+    tem automaticamente. 
+
+    - Um exemplo seria um array que armazene os meses do ano e outro para que seje armazenado os dias da semana.
+
+    - Sintaxe
+      - int[][] dias = new int[12][];
+      - O primeiro precisa ter o tamanho ja o segundo não
+      - Posso ter varias dimensões Ex:
+      - int[][][] dias = new int[12][][];
+      - int[][][][] dias = new int[12][][][];
+      - ... 
