@@ -30,5 +30,25 @@ public class ArraysMultidimensionais {
                 System.out.println(num);
             }
         }
+
+        System.out.println("-----------------------------");
+
+        // Outra forma de inicializar os arrays
+        int[][] arrayInt = new int[3][];
+
+        arrayInt[0] = new int[2];
+        arrayInt[1] = new int[3];
+        arrayInt[2] = new int[4];
+
+        // Exemplo de inicialização passando os valores
+        arrayInt[3] = new int[]{1, 2, 3, 4};
+
+        for (int i = 0; i < arrayInt.length; i++) {
+            
+            for (int j = 0; j < arrayInt[i].length; j++) {
+                
+                System.out.println(arrayInt[i][j]);
+            }
+        }
     }
 }
