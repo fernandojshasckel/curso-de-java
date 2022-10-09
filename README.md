@@ -160,5 +160,13 @@
     - Posso utilizar o return sozinho dentro de uma função void como um break por exemplo dentro de um if caso a instrução seja verdadeira ele 
     retorna para fora da função.
 
+   ### Parametros do tipo primitivo
+
+    - Quando passamos parametros do tipo primitivo para um metodo, não estamos passando a referencia daquele objeto em memoria estamos apenas passando 
+    o valor dele para a função.
+    - O JAVA faz uma cópia de tais valores.
+    - shift + f6 no intellij troco o nome da variavel e tambem altero nos lugares que utilizo a mesma.
+
+    - Parametros do tipo referencia, são parametros que são objetos
 
       
