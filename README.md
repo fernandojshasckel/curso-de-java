@@ -172,3 +172,25 @@
    ### Referencia do tipo this
 
     - O this faz referencia a um objeto.
+
+   ### Var Args
+
+    - Sintaxe criada para deixar as coisas mais simples
+
+      - Exemplo de método normal
+        - public void somaArray(int[] numeros){}
+
+      - Exemplo de método utilizando var args
+        - public void somaVarArgs(int... numeros){}
+
+    - Na hora da chamada do método também é diferente
+
+      - Chamada de método normal com parametro de array
+        - calculadora.somaArray(numeros);
+        Obs: Nesse caso 'numeros' é um array que foi criado onde os números foram passados
+      
+      - Chamada de método onde foi utilizado var args
+        - calculadora.somaVarArgs(1, 2, 3, 4, 5);
+        Obs: Nesse caso não preciso criar um array posso passar direto os valores que eu colocaria no array.
+
+    Obs: Quando utilizo var args ele deve ser o ultimo parametro passado no método, por que 
