@@ -137,4 +137,9 @@
       - int[][][][] dias = new int[12][][][];
       - ... 
 
+   ### Classes
+
+    - Quando falamos que o nosso código é coeso estamos falando que nossas classes não estão misturando o proposito de existir.
+    - 
+
       
