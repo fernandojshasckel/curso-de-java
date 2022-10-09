@@ -36,4 +36,15 @@ public class Calculadora {
         System.out.println(String.format("O resultado da divisão do número %s por %s é de: %s",
             num1, num2, divisao));
     }
+
+    public double divideNumeros(double num1, double num2){
+
+        if (num1 == 0 || num2 ==0){
+            
+            return 0;
+        } else{
+
+            return num1 / num2;
+        }
+    }
 }
