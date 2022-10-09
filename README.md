@@ -150,6 +150,7 @@
       - Nome do método
 
     - Os métodos assim como os atributos, são executados no objeto, ou seja eu faço uma instancia do objeto para poder utilizar os mesmos.
-    
+    - Na criação da minha função os valores que passo dentro dos parentes chamo de parametro.
+    - Na chamada da minha função os valores que passo dentro dos parentes chamo de argumento.
 
       

@@ -7,7 +7,12 @@ public class CalculadoraTest {
     public static void main(String[] args) {
         
         Calculadora calculadora = new Calculadora();
-        calculadora.somaDoisNumeros();
+        // Chamando as funções simples
+        calculadora.somaDeDoisNumeros();
         calculadora.subtracaoDeDoisNumeros();
+
+        // Chamando as funções com passagem de argumentos
+        calculadora.multiplicacaoDeDoisNumeros(3,2);
+        calculadora.divisaoDeDoisNumeros(10, 2);
     }
 }
