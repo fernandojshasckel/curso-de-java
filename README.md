@@ -169,4 +169,6 @@
 
     - Parametros do tipo referencia, são parametros que são objetos
 
-      
+   ### Referencia do tipo this
+
+    - O this faz referencia a um objeto.
