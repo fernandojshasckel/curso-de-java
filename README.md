@@ -153,4 +153,12 @@
     - Na criação da minha função os valores que passo dentro dos parentes chamo de parametro.
     - Na chamada da minha função os valores que passo dentro dos parentes chamo de argumento.
 
+   ### Return
+
+    - Utilizamos quando queremos retornar algum valor seja boolean, int ou outros tipos
+    - Tambem podemos utilizar retono para funções do tipo void
+    - Posso utilizar o return sozinho dentro de uma função void como um break por exemplo dentro de um if caso a instrução seja verdadeira ele 
+    retorna para fora da função.
+
+
       

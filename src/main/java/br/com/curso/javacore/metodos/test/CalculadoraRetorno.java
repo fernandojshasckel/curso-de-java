@@ -8,5 +8,7 @@ public class CalculadoraRetorno {
         
         Calculadora calculadora = new Calculadora();
         double resultado = calculadora.divideNumeros(20, 2);
+        System.out.println("Divisão dos números = " + resultado);
+        calculadora.imprimiDivisaoDoisNumeros(10, 2);
     }
 }
