@@ -140,6 +140,16 @@
    ### Classes
 
     - Quando falamos que o nosso código é coeso estamos falando que nossas classes não estão misturando o proposito de existir.
-    - 
+  
+   ### Métodos
+
+    - Partes de um método
+      - Tipo do acesso
+      - Retorno 
+        Obs: O método pode ou não retornar algo
+      - Nome do método
+
+    - Os métodos assim como os atributos, são executados no objeto, ou seja eu faço uma instancia do objeto para poder utilizar os mesmos.
+    
 
       
