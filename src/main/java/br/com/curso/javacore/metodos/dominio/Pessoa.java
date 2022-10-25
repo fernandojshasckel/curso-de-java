@@ -1,10 +1,5 @@
 package br.com.curso.javacore.metodos.dominio;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class Pessoa {
     
     private String nome;
@@ -13,5 +8,31 @@ public class Pessoa {
     public void imprime() {
 
         System.out.println(String.format("Nome: %s \nIdade: %s", this.nome, this.idade));
+    }
+
+    public void setNome(String nome) {
+
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+
+        if (idade < 0) {
+
+            System.out.println("Idade informada não é válida!");
+            return;
+        }
+
+        this.idade = idade;
+    }
+
+    public String getNome() {
+
+        return this.nome;
+    }
+
+    public int getIdade() {
+
+        return this.idade;
     }
 }
