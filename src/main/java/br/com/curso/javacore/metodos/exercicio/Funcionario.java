@@ -7,9 +7,10 @@ import lombok.Setter;
 @Setter
 public class Funcionario {
     
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double media;
 
     public void imprime(){
 
