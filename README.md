@@ -140,6 +140,9 @@
    ### Classes
 
     - Quando falamos que o nosso código é coeso estamos falando que nossas classes não estão misturando o proposito de existir.
+
+    Acoplamento: O quanto uma classe está ligada a outra.
+    Coesão: Quando meu código atende ao que se espera nada além disso, cumpre com as necessidades.
   
    ### Métodos
 
