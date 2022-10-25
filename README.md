@@ -197,3 +197,10 @@
         Obs: Nesse caso não preciso criar um array posso passar direto os valores que eu colocaria no array.
 
     Obs: Quando utilizo var args ele deve ser o ultimo parametro passado no método, por que 
+
+  ### Sobrecarga de método
+
+      - Sobrecarga de método é quando temos mais de um método com o mesmo nome porém o tipo ou a quantidade de parametros são diferentes.
+      - Não pode existir ambiguidade.
+
+  ### 
