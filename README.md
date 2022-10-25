@@ -203,4 +203,8 @@
       - Sobrecarga de método é quando temos mais de um método com o mesmo nome porém o tipo ou a quantidade de parametros são diferentes.
       - Não pode existir ambiguidade.
 
-  ### 
+  ### Construtores
+
+      - Posso fazer sobrecarga de construtores também.
+      - Quando faço a chamada de um construtor dentro de outro obrigatoriamente a chamada deve ser feita na primeira linha dentro do outro
+      construtor, caso a regra não seja seguida vou ter um erro de compilação.
