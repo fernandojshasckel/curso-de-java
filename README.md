@@ -208,3 +208,18 @@
       - Posso fazer sobrecarga de construtores também.
       - Quando faço a chamada de um construtor dentro de outro obrigatoriamente a chamada deve ser feita na primeira linha dentro do outro
       construtor, caso a regra não seja seguida vou ter um erro de compilação.
+
+  ### Bloco de inicialização
+
+      - Posso utilizar após a declaração das minhas variaver abrinde e fechando chaves e passando algo que quero fazer.
+      Exemplo:
+      
+      {
+        for (int i = 0; i < episodios.length; i++) {
+            
+            episodios[i] = i + 1;
+        }
+      }
+
+      - Ele é util quando está sendo usado sobrecarga de construtores para não ficar passando a mesma coisa dentro de todos os construtores.
+      - Cada atributo de classe é criado e inicializado com valores default ou o que for passado.
